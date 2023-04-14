@@ -2,7 +2,7 @@
 
 Converts a union type `U` into an intersection type
 
-## Usage
+## Example
 
 ```ts
 type User = {

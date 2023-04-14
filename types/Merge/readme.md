@@ -2,7 +2,7 @@
 
 Merges an intersection type `T` into a single object type.
 
-## Usage
+## Example
 ```ts
 type User = {
   id: number;

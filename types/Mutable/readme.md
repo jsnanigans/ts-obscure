@@ -2,7 +2,7 @@
 
 Makes all properties of a type T mutable (opposite of Readonly<T>)
 
-## Usage
+## Example
 
 ```ts
 

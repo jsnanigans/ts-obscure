@@ -1,0 +1,10 @@
+# Tail<T>
+
+Removes the first element of a tuple type T.
+
+## Example
+```ts
+type Arr = ['1', '2', '3', '4'];
+type Result = Tail<Arr>; // expected to be ['2', '3', '4']
+```
+

@@ -2,7 +2,7 @@
 
 Makes all properties of a type `T` readonly, including nested properties.
 
-## Usage
+## Example
 
 ```ts
 

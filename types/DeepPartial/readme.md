@@ -2,7 +2,7 @@
 
 Makes all properties of a type `T` optional, including nested properties.
 
-## Usage
+## Example
 
 ```ts
 

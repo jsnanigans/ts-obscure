@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "new:type": "sh ./scripts/newtype.sh",
+    "generate:readme": "sh ./scripts/generate_readme.sh",
+    "generate:index": "sh ./scripts/generate_index_file.sh",
+    "generate": "npm run generate:readme && npm run generate:index"
   },
   "keywords": [],
   "author": "",

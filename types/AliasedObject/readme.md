@@ -1,7 +1,7 @@
-# AliasedObject
+# AliasedObject<T>
 Creates a new type with the same properties as `T` but with some of them renamed using the aliases provided in `K`.
 
-## Usage
+## Example
 ```ts
 type User = {
   id: number;

@@ -16,7 +16,7 @@ const user: SelectedUser = {
   userId: 1,
   name: 'John',
   age: 20,
-  born: new Date(),
+  born: new Date()
 };
 
 // used in function
