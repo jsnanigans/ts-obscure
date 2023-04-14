@@ -13,11 +13,12 @@ type User = {
 
 type SelectedUser = AliasedObject<User, ['id as userId', 'name', 'age', 'date as born']>;
 
-const user: SelectedUser = {
-  userId: 1,
-  name: 'John',
-  age: 20,
-  born: new Date(),
+// output
+type SelectedUser = {
+  userId: number;
+  name: string;
+  age: number;
+  born: Date;
 };
 ```
 

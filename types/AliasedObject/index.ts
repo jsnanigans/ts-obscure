@@ -1,3 +1,6 @@
+import { Merge } from "../Merge";
+import { UnionToIntersection } from "../UnionToIntersection";
+
 type ExtractStringKeys<T> = {
   [K in keyof T]: K extends string ? K : never;
 }[keyof T];
@@ -18,10 +21,3 @@ export type AliasedObject<O, KA extends ValidKeys<O>[]> = Merge<
   >
 >;
 
-type UnionToIntersection<U> = (U extends any ? (k: U) => void : never) extends (
-  k: infer I
-) => void
-  ? I
-  : never;
-
-type Merge<T> = { [K in keyof T]: T[K] };

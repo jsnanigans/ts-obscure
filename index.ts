@@ -1,1 +1,6 @@
 export * from './types/AliasedObject'
+export * from './types/DeepPartial'
+export * from './types/Merge'
+export * from './types/Mutable'
+export * from './types/UnionToIntersection'
+export * from './types/DeepReadonly'
